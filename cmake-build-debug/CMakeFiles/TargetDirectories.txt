@@ -1,3 +1,0 @@
-C:/Users/eanovikov/repos/operation-system-api/cmake-build-debug/CMakeFiles/operation_system_api.dir
-C:/Users/eanovikov/repos/operation-system-api/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/eanovikov/repos/operation-system-api/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -2,6 +2,9 @@
 #include <iostream>
 #include <string>
 
+// Новиков Е. А., УИС-311
+// 22 вариант
+// Создание временного файла
 
 void checkInput(int argc, char **argv);
 
@@ -37,6 +40,7 @@ void processException() {
     switch (error) {
         case 267:
             std::cerr << "Wrong temp file path " << std::endl;
+            break;
         default:
             std::cerr << "Unexpected error: " << error << std::endl;
     }

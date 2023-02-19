@@ -20,7 +20,7 @@ prefix db 'idk',0
 tempFileName db ?,0
 
 err_dir db 'wrong directory',0
-unexcpected db 'unexcepted error',0
+unexcpected db 'unexpected error',0
 .code
 process_exception proc
 
@@ -40,7 +40,7 @@ process_exception proc
     unexpected:
     push 0
     push offset tit
-    push offset unexcpected
+    push offset unexpected
     push 0
     call MessageBox
 

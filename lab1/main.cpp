@@ -35,10 +35,10 @@ void checkInput(int argc, char **argv) {
 void processException() {
     DWORD error = GetLastError();
     switch (error) {
-        case 5:
+        case 267:
             std::cerr << "Wrong temp file path " << std::endl;
         default:
-            std::cerr << "Unhandled error: " << error << std::endl;
+            std::cerr << "Unexpected error: " << error << std::endl;
     }
 }
 
